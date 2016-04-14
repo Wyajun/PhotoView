@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (1.0.0)
+  - SystemAuthority (1.0.0)
+
+DEPENDENCIES:
+  - Masonry
+  - SystemAuthority
+
+SPEC CHECKSUMS:
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  SystemAuthority: f0958443a384d0cb24ffbc5ff0e6e5ced927469c
+
+COCOAPODS: 0.39.0

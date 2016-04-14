@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3F9D7F1CBDDCD7008BD724 /* photo_sel_photoPickerVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F9D7D1CBDDCD7008BD724 /* photo_sel_photoPickerVc@2x.png */; };
+		4F3F9D821CBDDD19008BD724 /* photo_def_previewVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F9D811CBDDD19008BD724 /* photo_def_previewVc@2x.png */; };
+		4F3F9D851CBDEAC1008BD724 /* YJPhotoPickerConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D841CBDEAC1008BD724 /* YJPhotoPickerConfigModel.m */; };
+		4F3F9D981CBE44DB008BD724 /* YJPhotoPickerAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D891CBE44DB008BD724 /* YJPhotoPickerAssetCell.m */; };
+		4F3F9D991CBE44DB008BD724 /* YJPhotoPickerAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D8B1CBE44DB008BD724 /* YJPhotoPickerAssetModel.m */; };
+		4F3F9D9A1CBE44DB008BD724 /* YJPhotoPickerAssetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D8D1CBE44DB008BD724 /* YJPhotoPickerAssetView.m */; };
+		4F3F9D9B1CBE44DB008BD724 /* YJPhotoPickerAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D8F1CBE44DB008BD724 /* YJPhotoPickerAssetViewController.m */; };
+		4F3F9D9C1CBE44DB008BD724 /* YJPhotoPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D911CBE44DB008BD724 /* YJPhotoPickerCell.m */; };
+		4F3F9D9D1CBE44DB008BD724 /* YJPhotoPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D931CBE44DB008BD724 /* YJPhotoPickerModel.m */; };
+		4F3F9D9E1CBE44DB008BD724 /* YJPhotoPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D951CBE44DB008BD724 /* YJPhotoPickerView.m */; };
+		4F3F9D9F1CBE44DB008BD724 /* YJPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9D971CBE44DB008BD724 /* YJPhotoPickerViewController.m */; };
+		4F3F9DA61CBE4571008BD724 /* YJPhotoPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9DA51CBE4571008BD724 /* YJPhotoPreviewView.m */; };
+		4F3F9DA91CBE4586008BD724 /* YJPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9DA81CBE4586008BD724 /* YJPhotoPreviewViewController.m */; };
+		4F3F9DAC1CBE45AD008BD724 /* YJPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F9DAB1CBE45AD008BD724 /* YJPhotoPreviewCell.m */; };
+		4F47BED91CBCD8050049B6C7 /* YJPhotoPickerAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F47BED11CBCD8050049B6C7 /* YJPhotoPickerAsset.m */; };
+		4F47BEDA1CBCD8050049B6C7 /* YJPhotoPickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F47BED51CBCD8050049B6C7 /* YJPhotoPickerGroup.m */; };
+		4F47BEDB1CBCD8050049B6C7 /* YJPhotoPickerMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F47BED81CBCD8050049B6C7 /* YJPhotoPickerMgr.m */; };
+		4F49137D1CBF410C0012FEEC /* YJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49137C1CBF410C0012FEEC /* YJPhotoView.m */; };
 		4F49F4411CB74CB200F6C226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49F4401CB74CB200F6C226 /* main.m */; };
 		4F49F4441CB74CB200F6C226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49F4431CB74CB200F6C226 /* AppDelegate.m */; };
 		4F49F4471CB74CB200F6C226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49F4461CB74CB200F6C226 /* ViewController.m */; };
@@ -15,6 +33,7 @@
 		4F49F44F1CB74CB200F6C226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F49F44D1CB74CB200F6C226 /* LaunchScreen.storyboard */; };
 		4F49F45A1CB74CB200F6C226 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49F4591CB74CB200F6C226 /* ________Tests.m */; };
 		4F49F4651CB74CB200F6C226 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49F4641CB74CB200F6C226 /* ________UITests.m */; };
+		F95E9875CF3E1EBDB45516B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B54FB9223EFA5E2E993E1B3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B72FA2CAC88D9BAB5619C77 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2EF4059E7F6E77D79129BD44 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4F3F9D7D1CBDDCD7008BD724 /* photo_sel_photoPickerVc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_sel_photoPickerVc@2x.png"; sourceTree = "<group>"; };
+		4F3F9D811CBDDD19008BD724 /* photo_def_previewVc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_def_previewVc@2x.png"; sourceTree = "<group>"; };
+		4F3F9D831CBDEAC1008BD724 /* YJPhotoPickerConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerConfigModel.h; sourceTree = "<group>"; };
+		4F3F9D841CBDEAC1008BD724 /* YJPhotoPickerConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerConfigModel.m; sourceTree = "<group>"; };
+		4F3F9D881CBE44DB008BD724 /* YJPhotoPickerAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerAssetCell.h; sourceTree = "<group>"; };
+		4F3F9D891CBE44DB008BD724 /* YJPhotoPickerAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerAssetCell.m; sourceTree = "<group>"; };
+		4F3F9D8A1CBE44DB008BD724 /* YJPhotoPickerAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerAssetModel.h; sourceTree = "<group>"; };
+		4F3F9D8B1CBE44DB008BD724 /* YJPhotoPickerAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerAssetModel.m; sourceTree = "<group>"; };
+		4F3F9D8C1CBE44DB008BD724 /* YJPhotoPickerAssetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerAssetView.h; sourceTree = "<group>"; };
+		4F3F9D8D1CBE44DB008BD724 /* YJPhotoPickerAssetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerAssetView.m; sourceTree = "<group>"; };
+		4F3F9D8E1CBE44DB008BD724 /* YJPhotoPickerAssetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerAssetViewController.h; sourceTree = "<group>"; };
+		4F3F9D8F1CBE44DB008BD724 /* YJPhotoPickerAssetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerAssetViewController.m; sourceTree = "<group>"; };
+		4F3F9D901CBE44DB008BD724 /* YJPhotoPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerCell.h; sourceTree = "<group>"; };
+		4F3F9D911CBE44DB008BD724 /* YJPhotoPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerCell.m; sourceTree = "<group>"; };
+		4F3F9D921CBE44DB008BD724 /* YJPhotoPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerModel.h; sourceTree = "<group>"; };
+		4F3F9D931CBE44DB008BD724 /* YJPhotoPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerModel.m; sourceTree = "<group>"; };
+		4F3F9D941CBE44DB008BD724 /* YJPhotoPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerView.h; sourceTree = "<group>"; };
+		4F3F9D951CBE44DB008BD724 /* YJPhotoPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerView.m; sourceTree = "<group>"; };
+		4F3F9D961CBE44DB008BD724 /* YJPhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerViewController.h; sourceTree = "<group>"; };
+		4F3F9D971CBE44DB008BD724 /* YJPhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerViewController.m; sourceTree = "<group>"; };
+		4F3F9DA41CBE4571008BD724 /* YJPhotoPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPreviewView.h; sourceTree = "<group>"; };
+		4F3F9DA51CBE4571008BD724 /* YJPhotoPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPreviewView.m; sourceTree = "<group>"; };
+		4F3F9DA71CBE4586008BD724 /* YJPhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPreviewViewController.h; sourceTree = "<group>"; };
+		4F3F9DA81CBE4586008BD724 /* YJPhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		4F3F9DAA1CBE45AD008BD724 /* YJPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPreviewCell.h; sourceTree = "<group>"; };
+		4F3F9DAB1CBE45AD008BD724 /* YJPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPreviewCell.m; sourceTree = "<group>"; };
+		4F47BECF1CBCD8050049B6C7 /* YJPhotoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoHeader.h; sourceTree = "<group>"; };
+		4F47BED01CBCD8050049B6C7 /* YJPhotoPickerAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerAsset.h; sourceTree = "<group>"; };
+		4F47BED11CBCD8050049B6C7 /* YJPhotoPickerAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerAsset.m; sourceTree = "<group>"; };
+		4F47BED21CBCD8050049B6C7 /* YJPhotoPickerAssetProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerAssetProtocol.h; sourceTree = "<group>"; };
+		4F47BED31CBCD8050049B6C7 /* YJPhotoPickerFetchProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerFetchProtocol.h; sourceTree = "<group>"; };
+		4F47BED41CBCD8050049B6C7 /* YJPhotoPickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerGroup.h; sourceTree = "<group>"; };
+		4F47BED51CBCD8050049B6C7 /* YJPhotoPickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerGroup.m; sourceTree = "<group>"; };
+		4F47BED61CBCD8050049B6C7 /* YJPhotoPickerGroupProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerGroupProtocol.h; sourceTree = "<group>"; };
+		4F47BED71CBCD8050049B6C7 /* YJPhotoPickerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoPickerMgr.h; sourceTree = "<group>"; };
+		4F47BED81CBCD8050049B6C7 /* YJPhotoPickerMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoPickerMgr.m; sourceTree = "<group>"; };
+		4F49137B1CBF410C0012FEEC /* YJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPhotoView.h; sourceTree = "<group>"; };
+		4F49137C1CBF410C0012FEEC /* YJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPhotoView.m; sourceTree = "<group>"; };
 		4F49F43C1CB74CB200F6C226 /* 自定义图片选择器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义图片选择器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F49F4401CB74CB200F6C226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F49F4421CB74CB200F6C226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +110,7 @@
 		4F49F4601CB74CB200F6C226 /* 自定义图片选择器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义图片选择器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F49F4641CB74CB200F6C226 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		4F49F4661CB74CB200F6C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B54FB9223EFA5E2E993E1B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95E9875CF3E1EBDB45516B7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +139,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1757222A7790A7B7F1DFFCB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B54FB9223EFA5E2E993E1B3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F3F9D7C1CBDDC9E008BD724 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F9D811CBDDD19008BD724 /* photo_def_previewVc@2x.png */,
+				4F3F9D7D1CBDDCD7008BD724 /* photo_sel_photoPickerVc@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4F3F9D861CBE44DB008BD724 /* YJPhotoPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F9D871CBE44DB008BD724 /* YJPhotoPickerAsset */,
+				4F3F9D901CBE44DB008BD724 /* YJPhotoPickerCell.h */,
+				4F3F9D911CBE44DB008BD724 /* YJPhotoPickerCell.m */,
+				4F3F9D921CBE44DB008BD724 /* YJPhotoPickerModel.h */,
+				4F3F9D931CBE44DB008BD724 /* YJPhotoPickerModel.m */,
+				4F3F9D941CBE44DB008BD724 /* YJPhotoPickerView.h */,
+				4F3F9D951CBE44DB008BD724 /* YJPhotoPickerView.m */,
+				4F3F9D961CBE44DB008BD724 /* YJPhotoPickerViewController.h */,
+				4F3F9D971CBE44DB008BD724 /* YJPhotoPickerViewController.m */,
+			);
+			path = YJPhotoPickerViewController;
+			sourceTree = "<group>";
+		};
+		4F3F9D871CBE44DB008BD724 /* YJPhotoPickerAsset */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F9D881CBE44DB008BD724 /* YJPhotoPickerAssetCell.h */,
+				4F3F9D891CBE44DB008BD724 /* YJPhotoPickerAssetCell.m */,
+				4F3F9D8A1CBE44DB008BD724 /* YJPhotoPickerAssetModel.h */,
+				4F3F9D8B1CBE44DB008BD724 /* YJPhotoPickerAssetModel.m */,
+				4F3F9D8C1CBE44DB008BD724 /* YJPhotoPickerAssetView.h */,
+				4F3F9D8D1CBE44DB008BD724 /* YJPhotoPickerAssetView.m */,
+				4F3F9D8E1CBE44DB008BD724 /* YJPhotoPickerAssetViewController.h */,
+				4F3F9D8F1CBE44DB008BD724 /* YJPhotoPickerAssetViewController.m */,
+			);
+			path = YJPhotoPickerAsset;
+			sourceTree = "<group>";
+		};
+		4F3F9DA01CBE4520008BD724 /* YJPhotoPreviewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F9DA41CBE4571008BD724 /* YJPhotoPreviewView.h */,
+				4F3F9DA51CBE4571008BD724 /* YJPhotoPreviewView.m */,
+				4F3F9DA71CBE4586008BD724 /* YJPhotoPreviewViewController.h */,
+				4F3F9DA81CBE4586008BD724 /* YJPhotoPreviewViewController.m */,
+				4F3F9DAA1CBE45AD008BD724 /* YJPhotoPreviewCell.h */,
+				4F3F9DAB1CBE45AD008BD724 /* YJPhotoPreviewCell.m */,
+				4F49137B1CBF410C0012FEEC /* YJPhotoView.h */,
+				4F49137C1CBF410C0012FEEC /* YJPhotoView.m */,
+			);
+			path = YJPhotoPreviewController;
+			sourceTree = "<group>";
+		};
+		4F47BECE1CBCD8050049B6C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F47BECF1CBCD8050049B6C7 /* YJPhotoHeader.h */,
+				4F47BED01CBCD8050049B6C7 /* YJPhotoPickerAsset.h */,
+				4F47BED11CBCD8050049B6C7 /* YJPhotoPickerAsset.m */,
+				4F47BED21CBCD8050049B6C7 /* YJPhotoPickerAssetProtocol.h */,
+				4F47BED31CBCD8050049B6C7 /* YJPhotoPickerFetchProtocol.h */,
+				4F47BED41CBCD8050049B6C7 /* YJPhotoPickerGroup.h */,
+				4F47BED51CBCD8050049B6C7 /* YJPhotoPickerGroup.m */,
+				4F47BED61CBCD8050049B6C7 /* YJPhotoPickerGroupProtocol.h */,
+				4F47BED71CBCD8050049B6C7 /* YJPhotoPickerMgr.h */,
+				4F47BED81CBCD8050049B6C7 /* YJPhotoPickerMgr.m */,
+				4F3F9D831CBDEAC1008BD724 /* YJPhotoPickerConfigModel.h */,
+				4F3F9D841CBDEAC1008BD724 /* YJPhotoPickerConfigModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4F49F4331CB74CB200F6C226 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +228,8 @@
 				4F49F4581CB74CB200F6C226 /* 自定义图片选择器Tests */,
 				4F49F4631CB74CB200F6C226 /* 自定义图片选择器UITests */,
 				4F49F43D1CB74CB200F6C226 /* Products */,
+				5B21FB591B961D96CBF77AD3 /* Pods */,
+				1757222A7790A7B7F1DFFCB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +246,7 @@
 		4F49F43E1CB74CB200F6C226 /* 自定义图片选择器 */ = {
 			isa = PBXGroup;
 			children = (
+				4F49F4721CB74CD400F6C226 /* YJImagePicker */,
 				4F49F4421CB74CB200F6C226 /* AppDelegate.h */,
 				4F49F4431CB74CB200F6C226 /* AppDelegate.m */,
 				4F49F4451CB74CB200F6C226 /* ViewController.h */,
@@ -140,6 +286,26 @@
 			path = "自定义图片选择器UITests";
 			sourceTree = "<group>";
 		};
+		4F49F4721CB74CD400F6C226 /* YJImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F9DA01CBE4520008BD724 /* YJPhotoPreviewController */,
+				4F3F9D861CBE44DB008BD724 /* YJPhotoPickerViewController */,
+				4F3F9D7C1CBDDC9E008BD724 /* Image */,
+				4F47BECE1CBCD8050049B6C7 /* Model */,
+			);
+			path = YJImagePicker;
+			sourceTree = "<group>";
+		};
+		5B21FB591B961D96CBF77AD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B72FA2CAC88D9BAB5619C77 /* Pods.debug.xcconfig */,
+				2EF4059E7F6E77D79129BD44 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F49F4691CB74CB200F6C226 /* Build configuration list for PBXNativeTarget "自定义图片选择器" */;
 			buildPhases = (
+				EDEDEE80BEF08BFD8F875F3E /* Check Pods Manifest.lock */,
 				4F49F4381CB74CB200F6C226 /* Sources */,
 				4F49F4391CB74CB200F6C226 /* Frameworks */,
 				4F49F43A1CB74CB200F6C226 /* Resources */,
+				2D8922188FA259A25E221EB1 /* Embed Pods Frameworks */,
+				0153EA7CDE29577B2008F738 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +412,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3F9D7F1CBDDCD7008BD724 /* photo_sel_photoPickerVc@2x.png in Resources */,
+				4F3F9D821CBDDD19008BD724 /* photo_def_previewVc@2x.png in Resources */,
 				4F49F44F1CB74CB200F6C226 /* LaunchScreen.storyboard in Resources */,
 				4F49F44C1CB74CB200F6C226 /* Assets.xcassets in Resources */,
 				4F49F44A1CB74CB200F6C226 /* Main.storyboard in Resources */,
@@ -265,13 +436,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0153EA7CDE29577B2008F738 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D8922188FA259A25E221EB1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDEDEE80BEF08BFD8F875F3E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F49F4381CB74CB200F6C226 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3F9DA91CBE4586008BD724 /* YJPhotoPreviewViewController.m in Sources */,
+				4F3F9DA61CBE4571008BD724 /* YJPhotoPreviewView.m in Sources */,
+				4F3F9D9E1CBE44DB008BD724 /* YJPhotoPickerView.m in Sources */,
+				4F47BEDA1CBCD8050049B6C7 /* YJPhotoPickerGroup.m in Sources */,
+				4F3F9D9C1CBE44DB008BD724 /* YJPhotoPickerCell.m in Sources */,
+				4F3F9D9A1CBE44DB008BD724 /* YJPhotoPickerAssetView.m in Sources */,
 				4F49F4471CB74CB200F6C226 /* ViewController.m in Sources */,
+				4F47BEDB1CBCD8050049B6C7 /* YJPhotoPickerMgr.m in Sources */,
+				4F3F9D9F1CBE44DB008BD724 /* YJPhotoPickerViewController.m in Sources */,
+				4F3F9D851CBDEAC1008BD724 /* YJPhotoPickerConfigModel.m in Sources */,
+				4F3F9D9B1CBE44DB008BD724 /* YJPhotoPickerAssetViewController.m in Sources */,
 				4F49F4441CB74CB200F6C226 /* AppDelegate.m in Sources */,
+				4F3F9D9D1CBE44DB008BD724 /* YJPhotoPickerModel.m in Sources */,
+				4F49137D1CBF410C0012FEEC /* YJPhotoView.m in Sources */,
+				4F47BED91CBCD8050049B6C7 /* YJPhotoPickerAsset.m in Sources */,
+				4F3F9DAC1CBE45AD008BD724 /* YJPhotoPreviewCell.m in Sources */,
+				4F3F9D981CBE44DB008BD724 /* YJPhotoPickerAssetCell.m in Sources */,
+				4F3F9D991CBE44DB008BD724 /* YJPhotoPickerAssetModel.m in Sources */,
 				4F49F4411CB74CB200F6C226 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,22 +648,26 @@
 		};
 		4F49F46A1CB74CB200F6C226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B72FA2CAC88D9BAB5619C77 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "自定义图片选择器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyajun.jianpan.--------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyajun.yulan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		4F49F46B1CB74CB200F6C226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF4059E7F6E77D79129BD44 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "自定义图片选择器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyajun.jianpan.--------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyajun.yulan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +737,7 @@
 				4F49F46B1CB74CB200F6C226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F49F46C1CB74CB200F6C226 /* Build configuration list for PBXNativeTarget "自定义图片选择器Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +746,7 @@
 				4F49F46E1CB74CB200F6C226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F49F46F1CB74CB200F6C226 /* Build configuration list for PBXNativeTarget "自定义图片选择器UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +755,7 @@
 				4F49F4711CB74CB200F6C226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
