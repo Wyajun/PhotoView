@@ -10,5 +10,6 @@
 #import "YJPhotoPickerGroupProtocol.h"
 @interface YJPhotoPickerModel : NSObject
 @property(nonatomic,strong)NSArray <id<YJPhotoPickerGroupProtocol>> *group;
+
 -(void)fetchGroup:(void(^)())callback;
 @end

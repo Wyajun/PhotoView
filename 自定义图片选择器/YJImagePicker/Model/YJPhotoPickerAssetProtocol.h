@@ -25,6 +25,14 @@
  *  获取是否是视频类型, Default = false
  */
 @property (assign,nonatomic) BOOL isVideoType;
+/**
+ * cache
+ */
+@property(nonatomic,readonly)BOOL isCacheImg;
+/**
+ * 缓存的图片
+ */
+@property(nonatomic,readonly,strong)UIImage *cacheImg;
 
 @property (strong,nonatomic) id asset;
 /**

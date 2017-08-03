@@ -22,6 +22,7 @@
     }];
 }
 -(NSArray <id<YJPhotoPickerGroupProtocol>> *)group {
+    
     return self.groupList;
 }
 @end

@@ -14,6 +14,7 @@
 #import "YJPhotoPickerMgr.h"
 @interface YJPhotoPickerAssetView()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property(nonatomic,strong)UICollectionView *collectView;
+@property (strong, nonatomic) NSValue *targetRect;
 @end
 static CGFloat CELL_ROW = 4;
 static CGFloat CELL_MARGIN = 2;
@@ -67,6 +68,8 @@ static NSString *const cellIdentifier = @"YJPhotoPickerAssetCell";
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     YJPhotoPickerAssetCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     cell.asset = self.assetModel.assets[indexPath.row];
+    [self setupCell:cell withIndexPath:indexPath];
+   
     return cell;
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -74,5 +77,52 @@ static NSString *const cellIdentifier = @"YJPhotoPickerAssetCell";
     proview.configModel = [[YJPhotoPickerMgr sharePhotoPickerMgr] pickerModel];
     [self.pushVc.navigationController pushViewController:proview animated:YES];
 }
+- (void)loadImageForVisibleCells
+{
+    NSArray *cells = [self.collectView visibleCells];
+    for (YJPhotoPickerAssetCell *cell in cells) {
+        NSIndexPath *path = [self.collectView indexPathForCell:cell];
+        [self setupCell:cell withIndexPath:path];
+    }
+}
 
+- (void)setupCell:(YJPhotoPickerAssetCell *)cell withIndexPath:(NSIndexPath *)indexPath
+{
+    id<YJPhotoPickerAssetProtocol>data = self.assetModel.assets[indexPath.row];
+    if (!data.isCacheImg) {
+        
+        CGRect cellFrame =  [cell convertRect:cell.bounds toView:self.collectView];
+        BOOL shouldLoadImage = YES;
+        if (self.targetRect && !CGRectIntersectsRect([self.targetRect CGRectValue], cellFrame)) {
+            shouldLoadImage = NO;
+        }
+        if (shouldLoadImage) {
+            [cell reSetDataWhenTableScrollered];
+        }
+        
+    }
+}
+
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    self.targetRect = nil;
+    [self loadImageForVisibleCells];
+}
+
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
+{
+    CGRect targetRect = CGRectMake(targetContentOffset->x, targetContentOffset->y, scrollView.frame.size.width, scrollView.frame.size.height);
+    self.targetRect = [NSValue valueWithCGRect:targetRect];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    self.targetRect = nil;
+    [self loadImageForVisibleCells];
+}
 @end

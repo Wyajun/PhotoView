@@ -44,10 +44,16 @@
 }
 -(void)setAsset:(id<YJPhotoPickerAssetProtocol>)asset {
     _asset = asset;
-     asset.thumbImage = ^(UIImage *image) {
-         _imgView.image = image;
-    };
+    if (_asset.isCacheImg) {
+        _imgView.image = _asset.cacheImg;
+    }
     _actionBnt.selected = [[YJPhotoPickerMgr sharePhotoPickerMgr].pickerModel isExitAsset:asset];
+}
+-(void)reSetDataWhenTableScrollered {
+    __weak typeof(self)weak = self;
+    _asset.thumbImage = ^(UIImage *image) {
+        weak.imgView.image = image;
+    };
 }
 
 -(void)actionBnuttonPress:(UIButton *)sender {

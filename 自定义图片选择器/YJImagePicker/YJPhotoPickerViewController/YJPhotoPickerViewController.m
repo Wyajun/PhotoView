@@ -15,14 +15,10 @@
 @interface YJPhotoPickerViewController()
 @property(nonatomic,weak)YJPhotoPickerView *pickerView;
 @property(nonatomic,strong)YJPhotoPickerModel *pickerModel;
-@property(nonatomic) BOOL firstShow;
 @end
 @implementation YJPhotoPickerViewController
 -(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        self.firstShow = YES;
-    }
     return self;
 }
 -(void)viewDidLoad {
@@ -45,15 +41,11 @@
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    if (self.firstShow) {
-        [self pushFristPickerModel];
-        self.firstShow = NO;
-    }
-    
 }
 
 -(void)pushFristPickerModel {
     YJPhotoPickerAssetViewController *assetViewController = [[YJPhotoPickerAssetViewController alloc] init];
+    
     assetViewController.group = [self.pickerModel.group firstObject];
     [self.navigationController pushViewController:assetViewController animated:NO];
 }

@@ -10,4 +10,5 @@
 #import "YJPhotoPickerAssetProtocol.h"
 @interface YJPhotoPickerAssetCell : UICollectionViewCell
 @property(nonatomic,strong)id<YJPhotoPickerAssetProtocol> asset;
+-(void)reSetDataWhenTableScrollered;
 @end

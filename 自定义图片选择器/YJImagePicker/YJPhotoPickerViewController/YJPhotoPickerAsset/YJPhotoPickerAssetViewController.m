@@ -20,6 +20,7 @@
     [super viewDidLoad];
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+  
     self.automaticallyAdjustsScrollViewInsets = NO;
     YJPhotoPickerAssetView  *pickerView = [[YJPhotoPickerAssetView alloc] init];
     [self.view addSubview:pickerView];

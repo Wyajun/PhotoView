@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Photos/Photos.h>
 #import "YJPhotoPickerGroupProtocol.h"
 #import "YJPhotoPickerAssetProtocol.h"
 
@@ -22,8 +23,17 @@ typedef void(^GroupAllAsset)(NSArray<id<YJPhotoPickerAssetProtocol>> *assetList)
  * 传入一个组获取组里面的Asset
  */
 - (void) getGroupPhotosWithGroup : (id<YJPhotoPickerGroupProtocol>) pickerGroup finished:(GroupAllAsset ) callBack;
+@optional
 /**
  * 传入phAsset
  */
-- (void)getPhotoWithAsset:(id)asset photoWidth:(CGFloat)photoWidth synchronous:(BOOL)sync completion:(void (^)(UIImage *, NSDictionary *, BOOL isDegraded))completion;
+- (PHImageRequestID)getPhotoWithAsset:(id)asset photoWidth:(CGFloat)photoWidth synchronous:(BOOL)sync completion:(void (^)(UIImage *, NSDictionary *, BOOL isDegraded))completion;
+/**
+ * 清楚图片缓存
+ */
+-(void)cleanAllAsset;
+/*
+ *
+ */
+-(void)cancelImageRequest:(PHImageRequestID)requestID;
 @end

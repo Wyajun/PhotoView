@@ -12,6 +12,7 @@
 #import "YJPhotoPickerAssetViewController.h"
 @interface YJPhotoPickerView ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
+@property(nonatomic) BOOL firstShow;
 @end
 static NSString *const cellId = @"YJPhotoPickerCell";
 
@@ -19,6 +20,7 @@ static NSString *const cellId = @"YJPhotoPickerCell";
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
+        self.firstShow = YES;
         [self creatTableView];
     }
     return self;
@@ -39,6 +41,9 @@ static NSString *const cellId = @"YJPhotoPickerCell";
 }
 #pragma mark --
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if (!self.pickerModel.group) {
+        
+    }
     return self.pickerModel.group.count;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -62,8 +67,30 @@ static NSString *const cellId = @"YJPhotoPickerCell";
     _pickerModel = pickerModel;
     __weak typeof(self)weak = self;
     [self.pickerModel fetchGroup:^{
-        [weak.tableView reloadData];
+        if ([NSThread isMainThread]) {
+            if (weak.firstShow) {
+                [weak pushFristPickerModel];
+                weak.firstShow = NO;
+            }
+            [weak.tableView reloadData];
+        }else {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (weak.firstShow) {
+                    [weak pushFristPickerModel];
+                    weak.firstShow = NO;
+                }
+                [weak.tableView reloadData];
+            });
+        }
+       
+        
     }];
     
+}
+-(void)pushFristPickerModel {
+    YJPhotoPickerAssetViewController *assetViewController = [[YJPhotoPickerAssetViewController alloc] init];
+    
+    assetViewController.group = [self.pickerModel.group firstObject];
+    [self.pushVc.navigationController pushViewController:assetViewController animated:NO];
 }
 @end
